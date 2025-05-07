@@ -1,0 +1,23 @@
+# File ảo môi trường Python
+venv/
+.env/
+*.pyc
+__pycache__/
+
+# File token/bí mật
+.env
+*.env
+config.py  # Nếu bạn lưu token trong file riêng
+
+# File IDE/Editor
+.vscode/
+.idea/
+
+# File hệ thống
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# File cài đặt Python
+*.egg-info/
+dist/
+build/
